@@ -1,0 +1,21 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.video-norway{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.places-videos{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+
+}
+.video{
+	width: 300px;
+	height: 300px;
+	margin-left: 10px;
+}

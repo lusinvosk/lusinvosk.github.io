@@ -1,0 +1,222 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Rubik', sans-serif;
+}
+.menu a,
+.menu a:visited {
+	color: #3d3b3b;
+	text-decoration: none;
+}
+
+.menu a.active {
+	color: #7f7979;
+	transition: 0.5s;
+}
+.header{
+	background-image: url("images/zsmart-traveller-1.jpg");
+	background-size: cover;
+	height: 700px;
+	background-size: cover;
+
+}
+.fade-in-header{
+	display: none;
+}
+.menu-input{
+	display: flex;
+	justify-content: center;
+	vertical-align: middle;
+	padding-top: 30px;
+}
+.menu ul{
+	display:flex;
+	justify-content: flex-end;
+	list-style: none;
+	color: #44593A;
+	width: 94%;
+	cursor: pointer;
+	font-size: 15px;
+	vertical-align: middle;
+
+}
+.menu li{
+	margin:30px 20px;
+	transition: all 0.5s ease-in-out;
+}
+.menu li:hover{
+	color: #84a376;
+}
+.head-input{
+	background-color: transparent;
+	border:1px solid #44593A;
+	font-weight: bold;
+	width: 150px;
+	height: 60px;
+	cursor: pointer;
+	display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 30px auto;
+    transition: all 0.5s ease-in-out;
+}
+.head-input:hover{
+	background-color: #44593A;
+	color: white;
+	
+}
+.back-text{
+	color: #44593A;
+	margin-top: 30px;
+	text-align: center;
+}
+.back-text p{
+	margin-bottom: 30px;
+	font-style: italic;
+	font-size: 20px;
+}
+.back-text h1{
+	font-size:35px;
+	font-weight: bold;
+	font-style: italic;
+}
+.travel-images{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 30px;
+	position: relative;
+}
+.travel-images img{
+	width: 300px;
+	height: 230px;
+	cursor: pointer;
+	transition: 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.travel-images-text{
+	text-align: center;
+	margin-top: 10px;
+
+}
+.travel-images-text p{
+	font-size: 13px;
+	color: #44593A;
+}
+.travel-images-text h3{
+	font-size: 20px;
+	color: #44593A;
+	font-style: italic;
+	font-weight: bold;
+}
+.hover-img{
+	display: none;
+}
+.travel-img{
+	position: relative;
+}
+.travel-img:hover .hover-img{
+	position: absolute; 
+	top: 0;
+	display: block;
+}
+
+.top-text {
+	position: relative;
+	height: 350px;
+	display: flex;
+    justify-content: center;
+}
+
+.paragraph-text{
+	background-color: #44593A;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	padding: 100px 0;
+	position: absolute;
+	top: 50px;
+	width: 1000px;
+	left: auto;
+	right: auto;
+}
+
+.fade-in-paragraph {
+	display: none;
+}
+.paragraph-text h1{
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 50px;	
+}
+.paragraph-text p{
+	text-align: justify;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.paragraph-image{
+	display: flex;
+	justify-content: center;
+}
+.paragraph-image img{
+	width: 100%;
+}
+.contact-inputs{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 30px;
+}
+.inputs{
+	display: flex;
+	flex-direction: column;
+}
+.about{
+	margin-top: 5px;
+	width: 400px;
+}
+.about:hover{
+	border: 1px solid #44593A;
+	margin-top: 5px;
+}
+.first-inputs{
+	height: 25px;
+}
+.input-message{
+	height: 100px;
+}
+.about::placeholder{
+	color:#44593A;
+	font-size: 10px;
+	padding-left: 5px;
+	font-weight: bold;
+}
+.contact{
+	color: #44593A;
+	display: flex;
+	align-items: center;
+}
+.contact h1{
+	font-size: 30px;
+	margin-bottom: 40px;
+	font-weight: bold;
+	letter-spacing: 10px;
+}
+.contact p{
+	font-style: italic;
+}
+.footer{
+	background-color: #44593A; 
+	width: 100%;
+	height: 100px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
